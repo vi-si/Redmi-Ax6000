@@ -11,9 +11,9 @@ git clone -b openwrt-21.02 --single-branch https://github.com/hanwckf/immortalwr
 ```bash
 运行模式 Fake-IP（TUN）模式
 
-*本地 DNS 劫持 使用 Dnsmasq 转发
+本地 DNS 劫持 使用 Dnsmasq 转发
 
-自定义上游 DNS 服务器
+自定义上游 DNS 服务器 （打勾选上）
 
 追加上游 DNS （取消打勾）
 
