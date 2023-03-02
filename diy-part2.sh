@@ -31,7 +31,4 @@ mv /tmp/clash feeds/luci/applications/luci-app-openclash/root/etc/openclash/core
 rm -rf /tmp/clash.tar.gz >/dev/null 2>&1
 ##---------------------------------------------------------
 
-https://raw.githubusercontent.com/vernesong/OpenClash/master/core-lateset/meta/clash-linux-arm64.tar.gz
-
-
 
