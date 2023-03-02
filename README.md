@@ -42,19 +42,28 @@ Fake-IP（TUN）模式
 NameServer 组
 
 dns.rubyfish.cn/dns-query
+
 dns.alidns.com/dns-query
+
 doh.pub/dns-query
+
 223.5.5.5/dns-query
+
 1.12.12.12/dns-query
 
 
 FallBack 组
 
 dns.cloudflare.com/dns-query
+
 dns.google/dns-query
+
 1.1.1.1/dns-query
+
 1.0.0.1/dns-query
+
 8.8.8.8/dns-query
+
 8.8.4.4/dns-query
 
 
