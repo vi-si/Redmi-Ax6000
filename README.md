@@ -9,7 +9,7 @@ git clone -b openwrt-21.02 --single-branch https://github.com/hanwckf/immortalwr
 
 
 ```bash
-运行模式 Fake-IP（TUN）模式
+运行模式 Fake-IP (TUN-混合) 模式
 
 本地 DNS 劫持 使用 Dnsmasq 转发
 
