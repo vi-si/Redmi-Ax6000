@@ -9,7 +9,7 @@ git clone -b openwrt-21.02 --single-branch https://github.com/hanwckf/immortalwr
 
 
 ```bash
-运行模式 Fake-IP (TUN-混合) 模式
+运行模式 Fake-IP TUN 模式
 
 本地 DNS 劫持 使用 Dnsmasq 转发
 
@@ -39,11 +39,11 @@ FallBack 组
 
 dns.cloudflare.com/dns-query
 
-dns.google/dns-query
-
 1.1.1.1/dns-query
 
 1.0.0.1/dns-query
+
+dns.google/dns-query
 
 8.8.8.8/dns-query
 
