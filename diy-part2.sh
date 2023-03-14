@@ -23,7 +23,7 @@ rm -rf /tmp/clash.tar.gz >/dev/null 2>&1
 ##---------------------------------------------------------
 
 ##-----------------Add OpenClash clash_tun core------------------
-curl -sL -m 30 --retry 2 https://raw.githubusercontent.com/vernesong/OpenClash/core/master/premium/clash-linux-arm64-2023.03.04.gz -o /tmp/clash.gz
+curl -sL -m 30 --retry 2 https://raw.githubusercontent.com/vernesong/OpenClash/core/master/premium/clash-linux-arm64-2023.03.04-5-g4a8cefb.gz -o /tmp/clash.gz
 gzip -d /tmp/clash.gz /tmp >/dev/null 2>&1
 chmod +x /tmp/clash >/dev/null 2>&1
 mv /tmp/clash feeds/luci/applications/luci-app-openclash/root/etc/openclash/core/clash_tun >/dev/null 2>&1
